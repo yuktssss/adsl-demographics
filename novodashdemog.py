@@ -1,7 +1,7 @@
 
-!pip install streamlit -q
+# !pip install streamlit -q
 
-%%writefile app.py
+# %%writefile app.py
 import pandas as pd
 import numpy as np
 import streamlit as st
@@ -161,4 +161,4 @@ if chart_selector=="Population Pyramid C":
                  )
   st.plotly_chart(fig,use_container_width = True)
 
-! streamlit run app.py & npx localtunnel --port 8501
+# ! streamlit run app.py & npx localtunnel --port 8501
