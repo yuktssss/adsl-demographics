@@ -1,4 +1,3 @@
-numpy @ file:///C:/ci/numpy_and_numpy_base_1649782970434/work
-pandas @ file:///C:/ci/pandas_1650373458095/work
-plotly @ file:///opt/conda/conda-bld/plotly_1646671701182/work
-seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
+numpy==1.19.2
+plotly==5.1.0
+pandas==1.1.3
