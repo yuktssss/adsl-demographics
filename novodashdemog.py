@@ -1,6 +1,6 @@
 
 # !pip install streamlit -q
-!pip install plotly
+# !pip install plotly
 # %%writefile app.py
 import pandas as pd
 import numpy as np
