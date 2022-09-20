@@ -62,7 +62,7 @@ if chart_selector=='Sunburst Chart':
   st.plotly_chart(sunb,use_container_width = True)
 if chart_selector=='Boxplot for BMI':
   st.write("### Boxplots for BMI in each arm by age groups")
-  boxy = px.box(df_bas, x="SEX", y="BMIBL", color="ARM",facet_col="AGEGR1")
+  boxy = px.box(df_bas, x="SEX", y="BMIBL", color="ARM",facet_col="AGEGR1",color_continuous_scale = 'sunset')
   st.plotly_chart(boxy,use_container_width = True)
 if chart_selector=="Population Pyramid A":
   st.write("### Population Pyramid of Treatment A")
