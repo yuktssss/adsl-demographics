@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings('ignore')
 import plotly.express as px
 import plotly.graph_objects as gp
-df1 = pd.read_excel("/content/drive/MyDrive/ADSL.xlsx")
+df1 = pd.read_excel("ADSL.xlsx")
 df_bas = df1[['USUBJID', 'ARM','AGE','AGEGR1','RACE', 'SEX', 'ETHNIC','BMIBL', 'BMIBLGR1', 'HEIGHTBL','WEIGHTBL', 'EDUCLVL']]
 df_bas.dropna(inplace=True)
 def bmi_cat(df):    
